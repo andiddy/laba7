@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Эндрю Гарфилд</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Эндрю Гарфилд</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h2>Навигация по странице</h2>
+        <nav id="navbar-example2" class="nav flex-column">
+            <a class="nav-link active btn-toggle" href="#carouselExample">Карусель</a>
+            <a class="nav-link btn-toggle" href="#info">Карточки с фильмами</a>
+            <a class="nav-link btn-toggle" href="#actorInfo">Краткая информация об актёре</a>
+        </nav>
+    <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pic1.jpg" class="d-block w-100" alt="Фото актёра 1">
+            </div>
+            <div class="carousel-item">
+                <img src="pic2.jpg" class="d-block w-100" alt="Фото актёра 2">
+            </div>
+            <div class="carousel-item">
+                <img src="pic3.jpg" class="d-block w-100" alt="Фото актёра 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущее</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующее</span>
+        </button>
+    </div>
+
+    <div class="container mt-4">
+        <h2 id="info">Фильмы с участием актёра</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Hacksaw_Ridge.jpg" class="card-img-top" alt="Постер">
+                    <div class="card-body">
+                        <h5 class="card-title">По соображениям совести (2016)</h5>
+                        <p class="card-text">Медик Американской армии времён Второй Мировой войны Дезмонд Досс, который служил во время битвы за Окинаву, отказывается убивать людей и становится первым идейным уклонистом в американской истории, удостоенным Медали Почёта.</p>
+                        <a href="https://www.kinopoisk.ru/film/649917/" target="_blank" class="btn btn-burgundy">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="we_live_in_time.jpg" class="card-img-top" alt="Постер">
+                    <div class="card-body">
+                        <h5 class="card-title">Время жить (2024)</h5>
+                        <p class="card-text">Альмут мечтала быть шеф-поваром, а романтичный Тобиас не мог оправиться после развода. Случайная встреча изменила их жизнь — и вот у них уже очаровательная дочь, уютный дом и процветающие карьеры. Идиллию нарушает роковая новость: Альмут предстоит борьба с серьезной болезнью. Не теряя надежды, пара осознаёт ценность каждого отведённого момента и решает жить так, чтобы ни одна минута не пропала зря.</p>
+                        <a href="https://www.kinopoisk.ru/film/5295906/" target="_blank" class="btn btn-burgundy">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Under_the_Silver_Lake.jpg" class="card-img-top" alt="Постер">
+                    <div class="card-body">
+                        <h5 class="card-title">Под Сильвер-Лэйк (2017)</h5>
+                        <p class="card-text">Сэм знакомится с девушкой, которая на следующий день исчезает при загадочных обстоятельствах. Теперь он одержим идеей непременно отыскать её, и пытается обнаружить хоть какие-то зацепки, во всем, что он видит и слышит. Неожиданно он находит что-то вроде кода или цепочки тайных посланий. Открывая каждое последующее сообщение, для него всё очевиднее становится, что он оказался внутри глобального заговора.</p>
+                        <a href="https://www.kinopoisk.ru/film/980327/" target="_blank" class="btn btn-burgundy">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="actorInfo">Краткая информация об актёре</h2>
+        <button class="btn btn-toggle" data-bs-toggle="collapse" data-bs-target="#actorInfo">Показать/Скрыть информацию</button>
+        <div id="actorInfo" class="collapse mt-2">
+            <p>Дата рождения: 20 августа 1983 (41 год)</p>
+            <p>Место рождения: Лос-Анджелес, Калифорния, США</p>
+            <p>Рост: 179 см</p>
+            <p>Вес: 74 кг</p>
+            <p>Знак Зодиака: Лев</p>
+            <p>Профессия: актёр</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    padding-top: 56px; 
+    background-color:#45b099;
+}
+.btn-toggle {
+    background-color: #456969; 
+    border-color: #456969; 
+    color: #ffffff; 
+}
+.btn-toggle:hover {
+    background-color: #ffccdd; 
+    border-color: #ffccdd; 
+}
+.btn-burgundy {
+    background-color: #456969; 
+    border-color: #456969; 
+    color: #ffffff;
+}
+.btn-burgundy:hover {
+    background-color: #ffccdd; 
+    border-color: #ffccdd; 
+    color: #ffffff;
+}
